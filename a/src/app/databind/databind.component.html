@@ -1,0 +1,49 @@
+<p>
+    My name is {{dynName}}
+</p>
+<br>
+<input [disabled]="enable" (focus)="fcs()" type="text" (blur)="blr()" value="{{dynName}}"><br><br>
+<input [hidden]="!enable" (focus)="fcs()" type="text" (blur)="blr()" [value]="fName"><br><br>
+<input (focus)="fcs()" type="text" (blur)="blr()" bind-value="lName"><br><br>
+<input [disabled]="enable" (focus)="fcs()" type="text" (blur)="blr()" 
+[value]="appStatus? status1 : status2"><br><br>
+<p>
+    {{text}}
+</p>
+<br><br>
+<ul>
+    <li>{{student[0]}}</li>
+    <li>{{student[1]}}</li>
+    <li>{{student[2]}}</li>
+    <li>{{student[3]}}</li>
+</ul>
+<li *ngFor="let s of student">{{s}}</li>
+<br>
+<li *ngFor="let s of student">{{student}}</li>
+<br>
+<input type="checkbox" [(ngModel)]="status">
+
+<table *ngIf="status">{{status}}</table><br>
+<ol>
+    <li>{{arrobj[0].id}}</li>
+    <li>{{arrobj[1].id}}</li>
+    <li>{{arrobj[2].id}}</li>
+</ol>
+<br>
+<li *ngFor="let a of arrobj">{{a.id}}has a name of {{a.name}}</li><br>
+<h2 *ngFor="let m of marks" [ngStyle]="{'background':(m>50)?'green':'red',
+    'color':(m>50)?'yellow':'pink'}">{{m}}</h2>
+<input type="checkbox" [(ngModel)]="status">Click Me to hide the table
+<table align="center" *ngIf="status">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <tr>
+        <td>1</td>
+        <td>AK</td>
+        <td>akram.shaik@gmail.com</td>
+    </tr>
+</table><br>
+<h2 *ngFor="let u of usermarks" [ngStyle]="{'background':(u.marks>50)?'green':'red',
+    'color':(u.marks>50)? 'yellow':'pink'}">
+    {{u.city}}&nbsp;{{u.marks}}</h2>

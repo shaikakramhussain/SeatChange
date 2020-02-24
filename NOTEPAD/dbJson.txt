@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "firstName": "dsfd",
+      "lastName": "gfhfh",
+      "email": "hjjghj@gmail.com",
+      "password": "fdgdfgfh",
+      "temporaryaddress": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "country": "dghdfh",
+          "pincode": "500045",
+          "mobilenumber": "8121881264"
+        }
+      ],
+      "permananeaddress": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "country": "hhh",
+          "pincode": "500045",
+          "mobilenumber": "8121881264"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "akram",
+      "lastName": "shaik",
+      "email": "akram@gmail.com",
+      "password": "123asd",
+      "temporaryaddress": [
+        {
+          "city": "akra",
+          "state": "sdfasd",
+          "country": "lhl",
+          "pincode": "hblhb",
+          "mobilenumber": "lblb"
+        }
+      ],
+      "permananeaddress": [
+        {
+          "city": "lbjb",
+          "state": "ljb;jb",
+          "country": "jb;jb",
+          "pincode": "ljb;lj",
+          "mobilenumber": ";ljlb;lj"
+        }
+      ],
+      "image": "",
+      "id": 3
+    },
+    {
+      "firstName": "g",
+      "lastName": "rg",
+      "email": "aerg@gmail.com",
+      "password": "rehaaa",
+      "temporaryaddress": [
+        {
+          "city": "erhg",
+          "state": "eh",
+          "country": "dg",
+          "pincode": "dgb",
+          "mobilenumber": "d"
+        }
+      ],
+      "permananeaddress": [
+        {
+          "city": "de",
+          "state": "a",
+          "country": "db",
+          "pincode": "gb",
+          "mobilenumber": "dbdfb"
+        }
+      ],
+      "image": "",
+      "id": 4
+    },
+    {
+      "firstName": "afbfdab",
+      "lastName": "agfb",
+      "email": "xzvz@gmail.com",
+      "password": "zxcvzxcvxc",
+      "temporaryaddress": [
+        {
+          "city": "xcv",
+          "state": "xcv",
+          "country": "cv",
+          "pincode": "xc",
+          "mobilenumber": "xzcz"
+        }
+      ],
+      "permananeaddress": [
+        {
+          "city": "xc",
+          "state": "xzc",
+          "country": "xzc",
+          "pincode": "xzc",
+          "mobilenumber": "zx"
+        }
+      ],
+      "image": "",
+      "id": 5
+    },
+    {
+      "firstName": "akram",
+      "lastName": "shai",
+      "email": "k@gmail.com",
+      "password": "asfwfwfw",
+      "temporaryaddress": [
+        {
+          "city": "arr",
+          "state": "argrg",
+          "country": "rgg",
+          "pincode": "sasgasrg",
+          "mobilenumber": "argg"
+        }
+      ],
+      "permananeaddress": [
+        {
+          "city": "a",
+          "state": "asgsg",
+          "country": "bfgbfgb",
+          "pincode": "brtbb",
+          "mobilenumber": "dgbsdb"
+        }
+      ],
+      "image": "",
+      "id": 6
+    }
+  ]
+}

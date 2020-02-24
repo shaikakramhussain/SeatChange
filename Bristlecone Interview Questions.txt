@@ -1,0 +1,26 @@
+1)can you tell me about your professional experience?
+2)Which Angular Version you are using correctly?
+3)Have you worked on previous versions as well?
+4)How many projects have you developed in the project till now?
+5)What is component in angular?
+6)What are decorators?
+7)What is the purpose of using decorator?
+8)What is directive?
+9)What are pipes?
+10)What are promises?
+11)What are observable?
+12)What is transpiling?
+13)Why do you use transpiling?
+14)What is Service?
+15)Why do you use Service?
+16)What is observable?
+17)Ways to communicate between component to component?
+18)Can you explain {{}} , [] , ()?
+19)Types of forms?(Differences)
+20)Angular Js Vs Angular7?
+21)What is Push?Pop?Shift?UnShift?
+22)What is Routing... Elaborate?
+23)css3 (Box Model, Position Layouts)
+24)Bootsrap4(Grid,Carosal,Button Classes)
+25)JavaSCript(==vs===, Types of functions and describe it, Array Methods)
+26)That's it from my side....Ay questions from your side?

@@ -1,0 +1,39 @@
+<!-- (focus)="myMethod()"
+(blur)="myMethod()"
+
+(submit)="myMethod()"
+(scroll)="myMethod()"
+
+(cut)="myMethod()"
+(copy)="myMethod()"
+(paste)="myMethod()"
+
+(keydown)="myMethod()"
+(keypress)="myMethod()"
+(keyup)="myMethod()"
+
+(mouseenter)="myMethod()"
+(mousedown)="myMethod()"
+(mouseup)="myMethod()"
+
+(click)="myMethod"
+(dbclick)="myMethod"
+
+(drag)="myMehod"
+(dragover)="myMethod()"
+(drop)="myMethod()" -->
+
+<p>eventbind works!</p>
+<!-- <button (click)="onAddCart()">Add To Cart</button>
+<p>{{msg}}</p> -->
+
+<input type="text" value="my input text" (click)="onInputClick($event)">
+<br><br>
+<button value="Laptop" (click)="onAddCart($event)" >Laptop</button><br>
+<button value="TV" (click)="onAddCart($event)">TV</button><br>
+<button value="washing Machine" (click)="onAddCart($event)">Washing Machine</button><br>
+<p>{{msg}}</p><br>
+
+<input #inputInfo type="text" value="Ojas" name="Akram">&nbsp;
+<button (click)="getInputInfo(inputInfo)">Get Info</button><br>
+
